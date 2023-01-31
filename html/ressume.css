@@ -1,0 +1,14 @@
+body{
+background-image:url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__340.jpg');
+}
+body{
+color: lime;
+margin-center:220px;
+}
+
+.profileimg{
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  
+}

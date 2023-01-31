@@ -1,0 +1,8 @@
+<html><head>
+<title frames</title></head>
+<body>
+
+
+<iframe src="EXP1,html">
+<iframe src="EXP1,html">
+</html>

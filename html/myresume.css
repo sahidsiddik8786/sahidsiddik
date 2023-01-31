@@ -1,0 +1,32 @@
+body{
+background-image:url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+body{
+color: white;
+margin-center:220px;
+}
+.profileimg{
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  
+}
+.head
+{
+	font-size:18px;
+}
+.head
+{
+	background-color:teal;
+}
+.head
+	{
+		color:white;
+		
+	}
+.head2
+{
+	
+	background-color:#FAEBD7;
+	color:black;	
+}

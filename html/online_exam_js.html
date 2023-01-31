@@ -1,0 +1,61 @@
+<html>
+<head>
+<title> ONLINE EXAM </title>
+<table border="3">
+<center>
+<style>
+body{
+	background-color:teal;
+	display:inline-block;
+}
+</style>
+</head>
+<body>	
+	<u> <h1 style="text-align:center";> ONLINE EXAM</h1></u>
+	<div style="margin=100px";>
+	<h3 style="font-size=25px";>
+	
+	1.Gods own country is known as______________.</h3> 
+	<input type="radio" name="q1">  Kerala<br>
+	<input type="radio" name="q1"> Assam<br>
+	<input type="radio" name="q1"> Manippal<br>
+	<input type="radio" name="q1"> Kashmir<br>
+	
+	<h3 style="font-size=25px";>
+	2.TajMahal is located __________ in india. </h3>
+	<input type="radio" name="q2">  Kerala<br>
+	<input type="radio" name="q2"> Assam<br>
+	<input type="radio" name="q2"> Delhi<br>
+	<input type="radio" name="q2"> Kashmir<br>
+	q3
+	<h3 style="font-size=25px";>
+	3.Harihar fort is in ___________.</h3>
+	<input type="radio" name="q3">Maharasta<br>
+	<input type="radio" name="q3"> Kerala<br>
+	<input type="radio" name="q3"> Delhi<br>
+	<input type="radio" name="q3" Punjab<br>
+		<input type="SUBMIT"	value="submit" onclick="result">
+	</div>
+	</table>
+<script>	
+	function result(){
+	var score=0
+	if(document.getElementById("q1").checked)
+	{
+	score++
+	}
+	if(document.getElementById("q2").checked)
+	{
+	score++
+	}
+	if(document.getElementById("c").checked)
+	{
+	score++
+	}
+		document.write("Your Score is:",score);
+	}
+</script>
+</body>
+</center>
+
+</html>

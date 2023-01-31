@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+p{
+	display:inline-block;
+}
+</style>
+</head>
+<body>		
+	<p id="p1"> mouse over </p><br>
+	<script>
+	var a=1;
+	var b=10;
+	while(a<b)
+	{
+	if(a%2==0)
+	{
+	document.write(a+"=even<br>")
+	}
+	else
+	{
+	document.write(a+"=odd<br>")					
+	}
+	a=a+1
+	}
+	var limit=25;
+	for(let c=1;c<limit;c++)
+	{
+	document.write(c+"<br>")
+	}
+	document.getElementById("p1").addEventListener("mouseenter",fun);
+	function fun(){
+		document.body.style.backgroundColor="blue"
+	}
+	document.getElementById("p1").addEventListener("mouseout",fun1);
+	function fun1(){
+		document.body.style.backgroundColor="yellow"
+	}
+</script>
+</body>
+</html>

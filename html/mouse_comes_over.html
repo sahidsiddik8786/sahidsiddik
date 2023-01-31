@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+h2,p{
+	font-family:Garamond;
+	font-weight:bold;
+	font-size:48;
+	text-align:center;
+	color:RED;
+}
+</style>
+<title> Colour Changer </title>
+</head>
+<h2>
+	Argentina VS Brazil
+</h2>
+<p id="clr">
+<button id="b5" onmouseover="pic()"> SCORE CARD </button>
+<script>
+text="Score card--> 3:1";
+//document.getElementById("pic").addEventListener("onmouseover",pic);
+function pic()
+{
+document.body.style.backgroundImage="url('https://thumbs.dreamstime.com/b/top-view-ball-argentina-vs-brazil-flags-match-green-soccer-field-top-view-ball-argentina-vs-brazil-flags-match-215549483.jpg')";
+document.getElementById("clr").innerHTML= " "+text;
+}
+</script>
+</html>
